@@ -7,6 +7,17 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `quattrocento sans\:400,700,400i,700i`,
+          `cardo`
+        ],
+        display: 'swap'
+      }
+    },
+    `gatsby-plugin-smoothscroll`,
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
