@@ -16,7 +16,13 @@ module.exports = {
         display: 'swap'
       }
     },
-    `gatsby-plugin-smoothscroll`,
+    {
+      resolve: `gatsby-plugin-anchor-links`,
+      options: {
+        offset: -150,
+        duration: 1000,
+      },
+  },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

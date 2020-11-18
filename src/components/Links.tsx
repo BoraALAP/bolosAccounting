@@ -1,8 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 import arrow from "./assets/arrow2.png"
+
 const Links = () => {
   const links = [
     {
@@ -60,7 +59,7 @@ const Links = () => {
     },
   ]
   return (
-    <Container>
+    <Container id="links">
       <h2>Links</h2>
       <p>Here is some support links for you.</p>
       <List>
@@ -80,7 +79,7 @@ Links.propTypes = {
 
 Links.defaultProps = {}
 
-const Container = styled.div`
+const Container = styled.section`
   display: grid;
   padding: 0 7.5vw;
   grid-gap: 1.5rem;
@@ -90,12 +89,12 @@ const Container = styled.div`
 const List = styled.ul`
   display: grid;
   list-style-image: url(${arrow});
-  @media screen and (min-width: 768px){
-    grid-template-columns: repeat(2,1fr);
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  @media screen and (min-width: 991px){
-  grid-template-columns: repeat(3,1fr);
+  @media screen and (min-width: 991px) {
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
   }
 `

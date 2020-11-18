@@ -47,8 +47,7 @@ html{
   }
 
 h2{
-  line-height: 3.25rem;
-  font-size:1.75rem;
+  font-size:3.5rem;
   @media screen and (min-width: 768px) {
     font-size: 5rem;
     }
@@ -93,6 +92,7 @@ p{
   font-size: 1rem;
   color: ${({ theme }) => theme.color.grey};
   margin: 0 0 1.5rem;
+  max-width: 600px;
 }
 
 a{
