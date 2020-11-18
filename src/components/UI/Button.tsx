@@ -9,7 +9,7 @@ export const NavButton = ({children, url, active}) => {
   return(
   <Container to={url} active={active} stripHash>
     {children}
-  </Container>
+  </Container>  
 )}
 
 NavButton.propTypes = {
