@@ -7,7 +7,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 export const NavButton = ({children, url, active}) => {
   
   return(
-  <Container to={url} active={active} stripHash>
+  <Container to={url} stripHash>
     {children}
   </Container>  
 )}

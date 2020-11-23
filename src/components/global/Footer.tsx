@@ -8,10 +8,10 @@ const Footer = () => (
     <div>
       © {new Date().getFullYear()}, Built with
       {` `}
-      <a href="https://www.bolosaccounting.com">Bolos Accounting</a>
+      <Link to="/">Bolos Accounting</Link>
     </div>
     <div>
-      Build by <a href="https://www.artticfox.com">Arttic Fox</a>
+      Build by <a href="https://www.artticfox.com" rel="noopenner" target="_blank">Arttic Fox</a>
     </div>
   </Container>
 )

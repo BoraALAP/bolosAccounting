@@ -11,11 +11,9 @@ const Header = ({ siteTitle }) => {
   const [active, setActive] = useState(0)
   const [openMenu, setOpenMenu] = useState(false)
 
-  const handleChange= (e) => {
-    console.log(e);
+  const handleChange= () => {
     
     setOpenMenu(!openMenu)
-    console.log("test");
     
   }
 
@@ -57,7 +55,7 @@ const Header = ({ siteTitle }) => {
           <NavButton
             key={item.id}
             url={`/${item.id}`}
-            active={active === index}
+    
             
           >
             {item.name}
