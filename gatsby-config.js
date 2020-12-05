@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Bolos Accounting`,
+    description: `Our policy is to ensure that we take care of our clients’
+    accounting, bookkeeping and other financial works such as, financial
+    reports, financial planning etc. We are happy when you are happy.`,
+    author: `@artticfox`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,12 +34,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `bolos-accounting`,
+        short_name: `bolos`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#fff`,
+        theme_color: `#00556F`,
+        display: `custom-ui`,
         icon: `src/images/favicon.svg`, // This path is relative to the root of the site.
       },
     },
