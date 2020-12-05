@@ -88,7 +88,7 @@ const Right = styled.div`
 const ImgS = styled(Img)`
   display: grid;
   width: 90%;
-  box-shadow: 1px 2px 16px rgba(3, 62, 80, 0.15), 2px 4px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 1px 2px 16px rgba(3, 62, 80, 0.15), 2px 4px 4px rgba(0, 0, 0, 0.1); */
 
   bottom: calc(-2.5vw - 3rem);
 `
